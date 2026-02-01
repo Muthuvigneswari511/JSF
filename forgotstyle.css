@@ -1,0 +1,70 @@
+*{
+    padding :0;
+    margin:0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+   position: relative;
+    font-family: sans-serif;
+}
+.blue{
+    width:100vw;
+    height: 50vh;
+    background-color: rgb(19, 146, 249);
+    z-index: 0;
+}
+.forgot{
+    width:350px;
+    height:300px;
+    border:1px solid rgb(248, 248, 249);
+   transform: translateX(-50%);  
+  display: flex;
+    flex-direction: column ;
+    align-items: center;
+    padding: 20px;
+    border: none;
+    z-index: 100;
+    position: absolute;
+    top:25%;
+    left: 50%;
+    background-color: white;
+    border-radius: 7px;
+}
+.forgot .haa{
+    color: rgb(33, 97, 244);
+    font-size: 45px;
+    font-weight: bolder;
+    padding: 10px;
+}
+.forgot h3{
+    padding: 6px;
+}
+.forgot p{
+    padding: 12px;
+}
+.forgot input{
+    width: 94%;
+      margin-bottom:14px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      border-radius: 5px;
+}
+.forgot button{
+    color:white;
+    background-color:#04AA6D;
+    width:100%;
+    margin: 7px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+}
+.last{
+    padding:10px;
+    margin: 10px;
+}
+.forgot .last a{
+    text-decoration: none;
+    color: rgb(19, 146, 249);
+}
