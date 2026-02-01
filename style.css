@@ -29,6 +29,7 @@
     padding: 20px;
     margin: 30px;
     box-sizing: border-box;
+    background-color: rgb(249, 248, 248);
 }
 form{
     padding: 0;
@@ -59,6 +60,7 @@ input{
     padding-left: 11px;
     padding-right: 11px;
     border-radius: 5px;
+    background-color: rgb(249, 248, 248);
 }
 .createaccount a{
     color:rgb(144, 48, 239);
