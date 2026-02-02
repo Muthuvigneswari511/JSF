@@ -14,11 +14,11 @@ body{
 }
 .createacc h2{
     text-align: center;
-    padding: 30px;
+    padding: 20px;
 }
 form {
     width: 450px;
-    height: 350px;
+    height: 480px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,24 +32,42 @@ form {
     text-align: left;
 }
  input {
-    border-radius: 15px;
+    border-radius: 20px;
     width:93%;
-    height :10%;
+    height :8%;
     background-color: rgb(245, 242, 242);
     font-weight: normal;
     border: 1px solid #aaa;
 }
 form button{
-    margin-top:10px;
+    margin-top: 5px;
     background-color: #3d77f4;
     color:white;
     border:none;
-    border-radius: 15px;
-    width:95%;
-    height: 11%;
+    border-radius: 20px;
+    width:93%;
+    height: 8.5%;
 }
 .back{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.back a{
+    text-decoration: none;
+    color: black;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login a{
+    color:lightseagreen;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+}
+form p{
+    padding: 5px;
 }
